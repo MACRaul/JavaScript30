@@ -1,6 +1,9 @@
+/*Raul Morales Alcazar
+10/30/24*/
+
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  background: url('./background.jpeg') bottom center; /*changed background image, source: me*/
   background-size: cover;
 }
 
@@ -9,6 +12,26 @@ body,html {
   padding: 0;
   font-family: sans-serif;
 }
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: rgb(16, 79, 76);
+  font-size: 2em;  
+  margin: 0; 
+  padding-top: 5em;
+
+} /*Added styling to header element.*/
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 2em;  
+  margin: 0; 
+  padding-bottom: 5em;
+
+} /*Added styling to paragraph element.*/
 
 .keys {
   display: flex;
